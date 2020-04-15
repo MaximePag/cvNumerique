@@ -1,12 +1,16 @@
+/*test boot strap*/
+
+
+/*fin du test*/
 body{
-    background-image: url("/home/maxime/Documents/www/cvNumerique/assets/img/planks1.webp");
+    background-image: url("../img/planks.webp");
     background-size: 100%;
 }
 #banner{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    background-image: url("/home/maxime/Documents/www/cvNumerique/assets/img/code.webp");
+    background-image: url("../img/background1.webp");
     background-size: cover;
     border: 1px black solid;
     border-bottom: 0px;
@@ -17,7 +21,10 @@ body{
     width: 100%;
     height: 300px;
 }
-#uparrow{
+nav{
+    background:linear-gradient(#00365C,#00243D)
+}
+/*#uparrow{
     border: 3px black outset;
     border-radius: 50%;
     background-color: lightgray;
@@ -33,7 +40,7 @@ nav{
     border: 1px black solid;
     border-top: 0px;
     border-bottom: 3px black solid;
-    background-color: #00365C;
+    background-color: rgba(0,54,92,0.8);
     width: 100%;
     text-align: right;
 }
@@ -52,12 +59,11 @@ nav a:hover{
     color: white;
     border-bottom: 4px white solid;
     border-top: 3px white double;
-}
+}*/
 .art{
     display: flex;
     flex-direction: column;
-    border: 1px black solid;
-    background-color: #3E3E3E;
+    background-color: rgba(62,62,62,1);;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
@@ -66,13 +72,17 @@ nav a:hover{
     margin-bottom: 15px;
     padding-bottom: 5%;
 }
+#present_text{
+    font-size: 1.4em;
+}
 .title{
     border-bottom: 5px white solid;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     width: 100%;
     height: 80px;
-    font-size: 35px;
+    font-size: 2.5em;
+    font-weight: bold;
     padding-bottom: 15px;
     margin-top: 50px;
     justify-content: center;
@@ -105,7 +115,7 @@ nav a:hover{
     text-align: center;
     font-size: 30px;
 }
-.experience{
+/*.experience{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -116,6 +126,10 @@ nav a:hover{
     margin-top: 1%;
     text-align: center;
     background-color: #555555;
+}*/
+.experience{
+    background:linear-gradient(to left,#3E3E3E,#00243D);
+    border-left: 4px white solid;
 }
 .formation{
     display: flex;
@@ -140,8 +154,7 @@ nav a:hover{
     text-decoration: underline;
 }
 .img{
-    border-bottom: 5px #00365C outset;
-    border-right: 5px #00365C outset;
+    border: 5px #00365C solid;
     width: 150px;
     height: 150px;
     background-color: white;
@@ -202,7 +215,30 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-.contact{
+.project{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+#memento, #cv{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.project_img{
+    border: 5px #00365C outset;
+    border-radius: 5%;
+    width: 1800px;
+    height: 900px;
+    opacity: 0.3;
+}
+.project_title{
+    border-top: 5px white solid;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    font-size: 2.7em;
+    padding-top: 1em;
+}
+/*.contact{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -228,9 +264,10 @@ nav a:hover{
 }
 .contact_coor, .contact_network{
     margin-bottom: 5%;
-}
+}*/
 .contact_network li{
     display: inline-block;
+    list-style: none;
 }
 .icon{
     border: 3px white outset;
