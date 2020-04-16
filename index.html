@@ -17,8 +17,8 @@
                 <h2>Apprenti Développeur Web & Web Mobile</h2>
             </div>
             <header>
-                <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#"><strong>CV Maxime Pageot</strong></a>
+                <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand nav_title" href="#"><strong>CV Maxime Pageot</strong></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -41,8 +41,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 mx-auto mt-5">
-                            <div class="card">
-                                <img class="card-img-top" src="assets/img/photo" alt="Photo Maxime Pageot">
+                            <div class="card card_mobile">
+                                <img class="card-img-top img-circle" src="assets/img/photo_mini.jpg" alt="Photo Maxime Pageot">
                                 <div class="card-body">
                                     <ul class="text-dark">
                                         <li><strong>Nom :</strong> Pageot</li>
@@ -52,22 +52,21 @@
                                         <li><strong>Téléphone :</strong> 06.21.29.00.09</li>
                                         <li><strong>Email :</strong> max_p@live.fr</li>
                                         <li><strong>Télécharger le CV standard :</strong></li>
-                                        <li><input type="submit" name="dlcv" value="Télécharger" /></li>
+                                        <li><a href="assets/img/CV22012020.jpg" download><input type="button" value="Télécharger"></a></li>
                                     </ul>           
                                 </div>
                             </div>
                         </div>
-                        <div id="present_text" class="col-lg-6 m-auto text-center">
+                        <div class="col-lg-6 m-auto text-center">
                             <p>Bonjour je m'appelle Maxime j'ai 22 ans et je suis actuellement apprenant au centre de formation "La Manu".</p>
                             <p>Passionné depuis mon enfance des métiers de l'informatique et du web,</p>
-                            <p>J'ai tenté ma chance en voulant devenir développeur web et j'ai entamé ma reconversion professionnelle.</p>
+                            <p>J'ai décidé de suivre cette voie pour devenir développeur web et j'ai entamé ma reconversion professionnelle.</p>
                             <p>J'y apprends le métier de développeur web et web mobile pendant 6 mois.</p>
                             <p>Actuellement je suis en train de façonner mon CV numérique à l'aide des langages HTML5 et CSS.</p>
                             <p>Et là je dois le refaçonner avec BootStrap et honnêtement je galère grave.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Card -->
                 <!--<div class="present">
                     <div class=present_photo>
                         <img src="assets/img/photo" alt="Photo Maxime Pageot"/>
@@ -101,15 +100,12 @@
                             <img src="assets/img/deceuninck.jpg" alt="Logo de Deceuninck" class="img"/>
                         </div>
                         <div class="col-lg-10">
-                            <ul>
-                                <li class="font-weight-bold"><i class="fas fa-briefcase fa-2x mr-4"></i>Conducteur de ligne chez Deceuninck à Roye</li>
-                                <li class="font-weight-bold"><i class="fas fa-calendar-alt fa-2x mr-4"></i>Juillet 2018 - Décembre 2019</li>
-                                <li><i class="fas fa-stream fa-2x mr-4"></i></li><div>
-                                    <ul>
-                                        <li>Gestion d'une ligne d'extrusion de profilé en PVC, approvisionnement, conditionnement,</li>
-                                        <li>réalisation de contrôles qualités sur ordianteur.</li>
-                                    </ul></div>
-                            </ul>
+                            <p class="font-weight-bold"><i class="fas fa-briefcase fa-2x mr-4"></i>Conducteur de ligne chez Deceuninck à Roye</p>
+                            <p class="font-weight-bold"><i class="fas fa-calendar-alt fa-2x mr-4"></i>Juillet 2018 - Décembre 2019</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description du poste</p>
+                            <p>Gestion d'une ligne d'extrusion de profilé en PVC, approvisionnement, conditionnement,</p>
+                            <p>réalisation de contrôles qualités sur ordinateur.</p>
+                            <p>Travail en équipe, horaire en 5/8.</p>
                         </div>
                     </div>
                     <div class="row"><h3 class="year">2018</h3></div>
@@ -118,9 +114,11 @@
                             <img src="assets/img/inter.png" alt="Logo de Intermarché" class="img"/>
                         </div>
                         <div class="col-lg-8">
-                            <p><i class="fas fa-briefcase fa-2x mr-4"></i>Préparateur de commandes chez Base ITM à Chaulnes</p>
-                            <p><i class="fas fa-calendar-alt fa-2x mr-4"></i>Mai 2018 - Juillet 2018</p>
-                            <p><i class="fas fa-stream fa-2x mr-4"></i></p>
+                            <p class="font-weight-bold"><i class="fas fa-briefcase fa-2x mr-4"></i>Préparateur de commandes chez Base ITM à Chaulnes</p>
+                            <p class="font-weight-bold"><i class="fas fa-calendar-alt fa-2x mr-4"></i>Mai 2018 - Juillet 2018</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description du poste</p>
+                            <p>Préparation de commandes sur chariot, CACES type R389.</p>
+                            <p>Horaire en 2/8.</p>
                         </div>
                     </div>
                     <div class="row"><h3 class="year">2017</h3></div>
@@ -129,9 +127,12 @@
                             <img src="assets/img/matines.png" alt="Logo de Matines" class="img"/>
                         </div>
                         <div class="col-lg-8">
-                            <p><i class="fas fa-briefcase fa-2x mr-4"></i>Manutentionnaire chez Matines à Montdidier</p>
-                            <p><i class="fas fa-calendar-alt fa-2x mr-4"></i>Décembre 2017 - Mai 2018</p>
-                            <p><i class="fas fa-stream fa-2x mr-4"></i></p>
+                            <p class="font-weight-bold"><i class="fas fa-briefcase fa-2x mr-4"></i>Manutentionnaire chez Matines à Montdidier</p>
+                            <p class="font-weight-bold"><i class="fas fa-calendar-alt fa-2x mr-4"></i>Décembre 2017 - Mai 2018</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description du poste</p>
+                            <p>Palettisation de colis, nettoyage des machines, gestion d'une machine de nettoyage</p>
+                            <p>de palettes plastiques et d'alveoles de rangement.</p>
+                            <p>Travail en équipe, horaire de journée ou en 3/8.</p>
                         </div>
                     </div>
                     <div class="row mt-5 experience p-4">
@@ -139,9 +140,11 @@
                             <img src="assets/img/saison.jpg" alt="Photo de saisonniers" class="img"/>
                         </div>
                         <div class="col-lg-8">
-                            <p><i class="fas fa-briefcase fa-2x mr-4"></i>Saisonnier chez SARL Thierry Peugniez à Gruny</p>
-                            <p><i class="fas fa-calendar-alt fa-2x mr-4"></i>Août 2017 - Octobre 2017</p>
-                            <p><i class="fas fa-stream fa-2x mr-4"></i></p>
+                            <p class="font-weight-bold"><i class="fas fa-briefcase fa-2x mr-4"></i>Saisonnier chez SARL Thierry Peugniez à Gruny</p>
+                            <p class="font-weight-bold"><i class="fas fa-calendar-alt fa-2x mr-4"></i>Août 2017 - Octobre 2017</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description du poste</p>
+                            <p>Tri de pommes de terre, contrôle visuel de qualité.</p>
+                            <p>Travail en équipe, horaire en 2/8.</p>
                         </div>
                     </div>
                     <div class="row mt-5 experience p-4">
@@ -149,9 +152,11 @@
                             <img src="assets/img/plombier.jpg" alt="Photo de plombier" class="img"/>
                         </div>
                         <div class="col-lg-8">
-                            <p><i class="fas fa-briefcase fa-2x mr-4"></i>Plombier/Manutentionnaire chez Qualichauff à Péronne</p>
-                            <p><i class="fas fa-calendar-alt fa-2x mr-4"></i>Janvier 2017 - Avril 2017</p>
-                            <p><i class="fas fa-stream fa-2x mr-4"></i></p>
+                            <p class="font-weight-bold"><i class="fas fa-briefcase fa-2x mr-4"></i>Plombier/Manutentionnaire chez Qualichauff-Services à Péronne</p>
+                            <p class="font-weight-bold"><i class="fas fa-calendar-alt fa-2x mr-4"></i>Janvier 2017 - Avril 2017</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description du poste</p>
+                            <p>Fixation et raccordement de radiateurs, installation de pieuvres PER.</p>
+                            <p>Travail en binôme, horaire de journée.</p>
                         </div>
                     </div>
                 </div>
@@ -198,7 +203,75 @@
             <a id="a3"></a>
             <div class="art">
                 <h2 class="title">Formations</h2>
-                <h3 class="year">2020</h3>
+                <div class="container">
+                    <div class="row"><h3 class="year">2020</h3></div>
+                    <div class="row mt-5 experience p-4">
+                        <div class="col-lg-2">
+                            <img src="assets/img/lamanu.png" alt="Logo de LaManu" class="img"/>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="font-weight-bold"><i class="fas fa-user-graduate fa-2x mr-4"></i>(En cours) TP Développeur Web & Web Mobile<br/>(Niveau 5)</p>
+                            <p class="font-weight-bold"><i class="fas fa-map-marker-alt fa-2x mr-4"></i>Centre de Formation La Manu à Noyon</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description</p>
+                            <p>Pendant 6 mois j'ai appris à développer un site web.</p>
+                            <p>Appris à utiliser les languages : HTML5, CSS3, ... Et à utiliser les Frameworks : Bootstrap, ...</p>
+                            <p>Appris à appliquer la méthode agile, et à maqueter un site web.</p>
+                        </div>
+                    </div>
+                    <div class="row"><h3 class="year">2018</h3></div>
+                    <div class="row mt-5 experience p-4">
+                        <div class="col-lg-2">
+                            <img src="assets/img/promeo.jpg" alt="Logo de ProMeo" class="img"/>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="font-weight-bold"><i class="fas fa-user-graduate fa-2x mr-4"></i>TP Conducteur d'installation et de machines automatisées<br/>(Niveau 3)</p>
+                            <p class="font-weight-bold"><i class="fas fa-map-marker-alt fa-2x mr-4"></i>Centre de Formation ProMeo à Amiens</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description</p>
+                            <p>Pendant 10 mois en alternance j'ai appris le métier de Conducteur de ligne.</p>
+                            <p>J'ai, à la fin de ma période de formation obtenu le TP CIMA.</p>
+                        </div>
+                    </div>
+                    <div class="row"><h3 class="year">2016</h3></div>
+                    <div class="row mt-5 experience p-4">
+                        <div class="col-lg-2">
+                            <img src="assets/img/jracine.jpg" alt="Logo du lycée Jean Racine" class="img"/>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="font-weight-bold"><i class="fas fa-user-graduate fa-2x mr-4"></i>BacPro Maintenance des équipements industriels<br/>(Niveau 4)</p>
+                            <p class="font-weight-bold"><i class="fas fa-map-marker-alt fa-2x mr-4"></i>Lycée Jean Racine de Montdidier</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description</p>
+                            <p>Pendant 1 an à la suite du BEP j'ai perfectionné mon apprentissage.</p>
+                            <p>J'ai, en fin d'année scolaire obtenu les résultats attendus mais je n'ai pas pu valider mon BacPro faute de stage.</p>
+                        </div>
+                    </div>
+                    <div class="row"><h3 class="year">2015</h3></div>
+                    <div class="row mt-5 experience p-4">
+                        <div class="col-lg-2">
+                            <img src="assets/img/jracine.jpg" alt="Logo du lycée Jean Racine" class="img"/>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="font-weight-bold"><i class="fas fa-user-graduate fa-2x mr-4"></i>BEP Maintenance des produits & des équipements industriels<br/>(Niveau 3)</p>
+                            <p class="font-weight-bold"><i class="fas fa-map-marker-alt fa-2x mr-4"></i>Lycée Jean Racine de Montdidier</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description</p>
+                            <p>Pendant 1 an à la suite d'une réorientation au lycée, j'y ai appris le métier de Technicien de maintenance industriel.</p>
+                            <p>J'ai, en fin d'année scolaire obtenu le BEP MPEI.</p>
+                        </div>
+                    </div>
+                    <div class="row"><h3 class="year">2012</h3></div>
+                    <div class="row mt-5 experience p-4">
+                        <div class="col-lg-2">
+                            <img src="assets/img/lmichel.png" alt="Logo du collège Louise Michel" class="img"/>
+                        </div>
+                        <div class="col-lg-10">
+                            <p class="font-weight-bold"><i class="fas fa-user-graduate fa-2x mr-4"></i>Diplôme National du Brevet</p>
+                            <p class="font-weight-bold"><i class="fas fa-map-marker-alt fa-2x mr-4"></i>Collège Louise Michel de Roye</p>
+                            <p class="font-weight-bold"><i class="fas fa-stream fa-2x mr-4"></i>Description</p>
+                            <p>Pendant 4 ans j'ai suivi le parcours général du collège et j'ai obtenu le DNB.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--<h3 class="year">2020</h3>
                 <div class="formation">
                     <img src="assets/img/lamanu.png" alt="Logo de LaManu" class="img"/>
                     <div class="formation_description">
@@ -248,106 +321,131 @@
                         <p>Pendant 4 ans j'ai suivi le parcours général du collège et j'ai obtenu le DNB.</p>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <a id="a4"></a>
             <div class="art">
                 <h2 class="title">Compétences</h2>
                 <h2 class="h2-responsive font-weight-bold text-center my-4">Développement</h2>
-                <div class="container mx-auto">
+                <div class="container mx-auto skill">
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/html5.png" class="skill_icon" alt="icône html5"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:15%"></div>
+                                <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:15%"></div>
                             </div> 
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/css3.png" class="skill_icon" alt="icône css3"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:12%"></div>
+                                <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:12%"></div>
                             </div> 
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/js.png" class="skill_icon" alt="icône js"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:1%"></div>
+                                <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:1%"></div>
                             </div> 
                         </div>
                     </div>
                     <h2 class="h2-responsive font-weight-bold text-center my-4">Frameworks</h2>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/bootstrap.png" class="skill_icon" alt="icône bootstrap"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:5%"></div>
+                                <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:5%"></div>
                             </div> 
                         </div>
                     </div>
                     <h2 class="h2-responsive font-weight-bold text-center my-4">Méthode Agile</h2>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/scrum.png" class="skill_icon" alt="image scrum"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:8%"></div>
+                                <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style="width:8%"></div>
                             </div> 
+                        </div>
+                    </div>
+                    <h2 class="h2-responsive font-weight-bold text-center my-4">Autres</h2>
+                    <h3 class="h3-responsive text-center mx-auto mb-5">Système d'exploitations</h3>
+                    <div class="row">
+                        <div class="col-lg-4 text-center my-5">
+                            <p><i class="fab fa-windows fa-7x"></i></p>
+                            <p class="font-weight-bold">Windows - 10/8.1/7/XP/Vista</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:80%"></div>
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 text-center my-5">
+                            <p><i class="fab fa-ubuntu fa-7x"></i></p>
+                            <p class="font-weight-bold">GNU/Linux - Ubuntu</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:40%"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center my-5">
+                            <p><i class="fab fa-apple fa-7x"></i></p>
+                            <p class="font-weight-bold">MAC OS</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:0%"></div>
+                            </div>
                         </div>
                     </div>
                     <h2 class="h2-responsive font-weight-bold text-center my-4">Langues</h2>
                     <h3 class="h3-responsive text-center mx-auto mb-5">Français (Natif)</h3>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/france.png" class="flag_icon" alt="drapeau de la france"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:100%"></div>
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:100%"></div>
                             </div> 
                         </div>
                     </div>
                     <h3 class="h3-responsive text-center mx-auto mb-5">Anglais</h3>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/anglais.png" class="flag_icon" alt="drapeau du royaume uni"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:55%"></div>
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:55%"></div>
                             </div> 
                         </div>
                     </div>
                     <h3 class="h3-responsive text-center mx-auto mb-5">Portugais</h3>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/portugal.png" class="flag_icon" alt="drapeau du portugal"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:20%"></div>
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:20%"></div>
                             </div> 
                         </div>
                     </div>
                     <h3 class="h3-responsive text-center mx-auto mb-5">Espagnol</h3>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-lg-2">
                             <img src="assets/img/espagne.png" class="flag_icon" alt="drapeau de l'espagne"/>
                         </div>
-                        <div class="col-md-10 my-5">
+                        <div class="col-lg-10 my-5">
                             <div class="progress">
-                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:10%"></div>
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:10%"></div>
                             </div> 
                         </div>
                     </div>
@@ -457,47 +555,47 @@
                     <h2 class="h2-responsive font-weight-bold text-center my-4">Vous souhaitez me contacter?</h2>
                     <h3 class="h3-responsive text-center mx-auto mb-5">M'envoyer un message</h3>
                     <div class="row">
-                        <div class="col-md-9 mb-md-0 mb-5">
+                        <div class="col-lg-9 mb-lg-0 mb-5">
                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
+                                    <div class="col-lg-6">
+                                        <div class="lg-form mb-0">
                                             <input type="text" id="name" name="name" placeholder="Ex : Jean MARTIN" class="form-control">
                                             <label for="name" class="">Votre nom et prénom</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
+                                    <div class="col-lg-6">
+                                        <div class="lg-form mb-0">
                                             <input type="text" id="email" name="email" placeholder="Ex : exemple@exemple.com" class="form-control">
                                             <label for="email" class="">Votre email</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-0">
+                                    <div class="col-lg-12">
+                                        <div class="lg-form mb-0">
                                             <input type="text" id="subject" name="subject" class="form-control">
                                             <label for="subject" class="">Sujet</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form">
-                                            <textarea id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <div class="col-lg-12">
+                                        <div class="lg-form">
+                                            <textarea id="message" name="message" rows="2" class="form-control lg-textarea"></textarea>
                                             <label for="message">Votre message</label>
                                         </div>
                                     </div>
                                 </div>
                             </form>
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                            <div class="text-center text-lg-left">
+                                <a class="btn btn-primary send_button" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
                             </div>
                             <div class="status"></div>
                         </div>
-                        <div class="col-md-3 text-center">
+                        <div class="col-lg-3 text-center">
                             <ul class="list-unstyled mb-0">
-                                <li><i class="fas fa-map-marker-alt fa-2x"></i><p>Roye, Picardie, France</p></li>
+                                <li><i class="fas fa-map-marked-alt fa-2x"></i><p>Roye, Picardie, France</p></li>
                                 <li><i class="fas fa-phone mt-4 fa-2x"></i><p>+336 21 29 00 09</p></li>
                                 <li><i class="fas fa-envelope mt-4 fa-2x"></i><p>max_p@live.fr</p></li>
                             </ul>
