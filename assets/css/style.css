@@ -1,6 +1,294 @@
-/* All --------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------MOBILE---------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1280px){
+/*---------------------------------------------------------BODY---------------------------------------------------------------------*/
+    body{
+        background-image: url("../img/planks1.webp");
+        background-size: 100%;
+        color: white;
+    }
+    p{
+        font-size: 5vw;
+    }
+/*---------------------------------------------------------HEADER-------------------------------------------------------------------*/
+    header{
+        background-image: url("../img/background1.webp");
+        background-size: 100%;
+    }
+    nav{
+        background:linear-gradient(to top,#00365C,#00243D);
+        border-bottom: white 3px solid;
+        font-size: 6vw;
+        text-align: center;
+        margin-bottom: 50%;
+    }
+    .nav_title{
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    nav a:hover{
+        background:linear-gradient(to top,#00365C,#1F65A6);
+        border-top: 3px white double;
+    }
+    #banner{
+        padding-top: 25%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    #banner h1{
+        font-size: 8vw;
+    }
+    #banner h2{
+        font-size: 6vw;
+    }
+/*---------------------------------------------------------ARTICLE------------------------------------------------------------------*/
+    .art{
+        background-color: rgba(62,62,62,1);
+        width: 100%;
+        height: auto;
+        color: white;
+        margin-bottom: 8%;
+        padding-bottom: 5%;
+        padding-top: 3%;
+    }
+    .title{
+        border-bottom: 5px white solid;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        font-size: 10vw;
+        font-weight: bold;
+        padding-bottom: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+/*---------------------------------------------------------EXPERIENCE---------------------------------------------------------------*/
+    .year{
+        border-top: 5px white solid;
+        border-bottom: 5px white solid;
+        font-size: 7vw;
+        font-weight: bold;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .experience{
+        background:linear-gradient(to top,#3E3E3E,#00243D);
+        border-top: 4px white solid;
+        text-align: center;
+        margin-top: 5%;
+        padding: 5%
+    }
+    .img{
+        border: 5px #00365C solid;
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+/*---------------------------------------------------------SKILL--------------------------------------------------------------------*/
+    .skill_icon{
+        width: 30vw;
+        height: 35vw;
+    }
+    .flag_icon{
+        width: 50vw;
+        height: 35vw;
+    }
+/*---------------------------------------------------------PROJECTS-----------------------------------------------------------------*/
+    .project_img{
+        border: 5px #00365C outset;
+        border-radius: 5%;
+        width: 900px;
+        height: 500px;
+        opacity: 0.3;
+    }
+    .project_title{
+        border-top: 5px white solid;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        font-size: 2.7em;
+        padding-top: 1em;
+    }
+/*---------------------------------------------------------CONTACT------------------------------------------------------------------*/
+    .coords{
+        margin-top: 10%;
+        font-size: 10vw;
+    }
+    .network_icon{
+        border: 3px white outset;
+        border-radius: 100%;
+        width: 25vw;
+        height: 25vw;
+        background-color: white;
+        margin-bottom: 5%;
+    }
+}
+/*------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------DESKTOP--------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1280px){
+/*---------------------------------------------------------BODY---------------------------------------------------------------------*/
+    body{
+        background-image: url("../img/planks1.webp");
+        background-size: 100%;
+        color: white;
+    }
+    p{
+        font-size: 2em;
+    }
+/*---------------------------------------------------------HEADER-------------------------------------------------------------------*/
+    header{
+        background-image: url("../img/background1.webp");
+        background-size: 100%;
+    }
+    nav{
+        background:linear-gradient(to top,#00365C,#00243D);
+        border-bottom: white 3px solid;
+        font-size: 1em;
+        text-align: center;
+        }
+        .nav_title{
+            font-size: 2em;
+            font-weight: bold;
+        }
+        nav a:hover{
+            background:linear-gradient(to top,#00365C,#1F65A6);
+            border-top: 3px white double;
+        }
+        #banner{
+            padding-top: 25%;
+            padding-bottom: 2%;
+            text-align: center;
+        }
+        #banner h1{
+            font-size: 8vw;
+        }
+        #banner h2{
+            font-size: 6vw;
+        }
+/*---------------------------------------------------------ARTICLE------------------------------------------------------------------*/
+        .art{
+            background-color: rgba(62,62,62,1);
+            width: 100%;
+            height: auto;
+            color: white;
+            margin-bottom: 8%;
+            padding-bottom: 5%;
+            padding-top: 3%;
+        }
+        .title{
+            border-bottom: 5px white solid;
+            border-bottom-left-radius: 40%;
+            border-bottom-right-radius: 40%;
+            font-size: 10vw;
+            font-weight: bold;
+            padding-bottom: 5%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+/*---------------------------------------------------------EXPERIENCE---------------------------------------------------------------*/
+        .year{
+            border-top: 5px white solid;
+            border-bottom: 5px white solid;
+            font-size: 7vw;
+            font-weight: bold;
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        .experience{
+            background:linear-gradient(to top,#3E3E3E,#00243D);
+            border-top: 4px white solid;
+            text-align: center;
+            margin-top: 5%;
+            padding: 5%
+        }
+        .img{
+            border: 5px #00365C solid;
+            width: 50vw;
+            height: 50vw;
+            margin-bottom: 5%;
+            background-color: white;
+        }
+/*---------------------------------------------------------SKILL--------------------------------------------------------------------*/
+        .skill_icon{
+            width: 30vw;
+            height: 35vw;
+        }
+        .flag_icon{
+            width: 50vw;
+            height: 35vw;
+        }
+/*---------------------------------------------------------PROJECTS-----------------------------------------------------------------*/
+        .project_img{
+            border: 5px #00365C outset;
+            border-radius: 5%;
+            width: 900px;
+            height: 500px;
+            opacity: 0.3;
+        }
+        .project_title{
+            border-top: 5px white solid;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            font-size: 2.7em;
+            padding-top: 1em;
+        }
+/*---------------------------------------------------------CONTACT------------------------------------------------------------------*/
+        .coords{
+            margin-top: 10%;
+            font-size: 10vw;
+        }
+        .network_icon{
+            border: 3px white outset;
+            border-radius: 100%;
+            width: 25vw;
+            height: 25vw;
+            background-color: white;
+            margin-bottom: 5%;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* All --------------------------------------------------------------------------------------------------------------------------/
 body{
-    background-image: url("../img/planks.webp");
+    background-image: url("../img/absttrait.webp");
     background-size: 100%;
     position: relative;
 }
@@ -24,8 +312,8 @@ nav a:hover{
     background:linear-gradient(to top,#00365C,#1F65A6);
     border-top: 3px white double;
 }
-/* Mobile -----------------------------------------------------------------------------------------------------------------------*/
-@media all and (max-device-width: 1280px)
+/* Mobile -----------------------------------------------------------------------------------------------------------------------/
+@media (max-width: 1280px)
 {
     p, li, label{
         font-size: 2em;
@@ -133,10 +421,9 @@ nav a:hover{
         font-size: 2.7em;
         padding-top: 1em;
     }
-
 }
-/* Desktop ----------------------------------------------------------------------------------------------------------------------*/
-@media all and (min-device-width: 1280px)
+/* Desktop ----------------------------------------------------------------------------------------------------------------------/
+@media (min-width: 1280px)
 {
     #banner{
         display: inline-block;
@@ -159,42 +446,6 @@ nav a:hover{
         background:linear-gradient(to top,#00365C,#00243D);
         border-bottom: white 3px solid;
     }
-    /*#uparrow{
-        border: 3px black outset;
-        border-radius: 50%;
-        background-color: lightgray;
-        position: fixed;
-        z-index: 1;
-        width: 50px;
-        height: 50px;
-        margin-left: 95%;
-        margin-top: 18%;
-    }
-    nav{
-        display: inline-block;
-        border: 1px black solid;
-        border-top: 0px;
-        border-bottom: 3px black solid;
-        background-color: rgba(0,54,92,0.8);
-        width: 100%;
-        text-align: right;
-    }
-    nav li{
-        display: inline-block;
-        margin-right: 15px;
-    }
-    nav a{
-        font-size: 20px;
-        text-decoration: none;
-        color: black;
-        padding-bottom: 16px;
-        padding-top: 14px;
-    }
-    nav a:hover{
-        color: white;
-        border-bottom: 4px white solid;
-        border-top: 3px white double;
-    }*/
     .art{
         display: flex;
         flex-direction: column;
@@ -231,18 +482,6 @@ nav a:hover{
         text-align: center;
         font-size: 30px;
     }
-    /*.experience{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 80%;
-        height: 150px;
-        border: 5px #00365C outset;
-        margin-left: 10%;
-        margin-top: 1%;
-        text-align: center;
-        background-color: #555555;
-    }*/
     .experience{
         background:linear-gradient(to left,#3E3E3E,#00243D);
         border-left: 4px white solid;
@@ -348,33 +587,6 @@ nav a:hover{
         font-size: 2.7em;
         padding-top: 1em;
     }
-    /*.contact{
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
-    .contact_title{
-        text-decoration: underline;
-        text-align: center;
-        font-size: 30px;
-    }
-    .contact_1{
-        width: 35%;
-        margin-left: 5%;
-        margin-top: 2%;
-    }
-    .contact_2{
-        width: 65%;
-        margin-left: auto;
-        margin-top: 2%;
-        margin-right: 5%;
-    }
-    .contact_coor{
-        font-size: 25px;
-    }
-    .contact_coor, .contact_network{
-        margin-bottom: 5%;
-    }*/
     .contact_network li{
         display: inline-block;
         list-style: none;
@@ -393,4 +605,4 @@ nav a:hover{
         height: 100px;
         background-color: white;
     }
-}
+}*/
