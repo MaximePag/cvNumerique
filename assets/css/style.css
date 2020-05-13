@@ -1,62 +1,5 @@
-.subtitle{
-    border: 5px white solid;
-    border-radius: 40%;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 3%;
-    margin-bottom: 5%;
-    text-decoration: underline;
-}
-.circlebar {
-    width: 250px;
-    height: 100px;
-    transform: scaleY(-1);
-    margin: auto;
-}
-.circlebar svg{
-    border-radius: 10%;
-}
-.bar {
-    width: 250px;
-    height: 50px;
-    margin: auto;
-}
-.bar svg{
-    border-radius: 25px;
-}
-.flagbar {
-    width: 250px;
-    height: 250px;
-    margin: auto;
-    margin-bottom: 30%;
-  }
-#french svg{
-    border: 3px white solid;
-    border-radius: 100%;
-    background-image: url("../img/france.png");
-    background-position: center;
-    background-size: 300px;
-}
-#english svg{
-    border: 3px white solid;
-    border-radius: 100%;
-    background-image: url("../img/anglais.png");
-    background-position: center;
-    background-size: 300px;
-}
-#spanish svg{
-    border: 3px white solid;
-    border-radius: 100%;
-    background-image: url("../img/espagne.png");
-    background-position: center;
-    background-size: 300px;
-}
-#portuguese svg{
-    border: 3px white solid;
-    border-radius: 100%;
-    background-image: url("../img/portugal.png");
-    background-position: center;
-    background-size: 300px;
+.blinking{
+    visibility: hidden;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------MOBILE---------------------------------------------------------------------
@@ -159,6 +102,67 @@
     .flag_icon{
         width: 50vw;
         height: 35vw;
+    }
+    .subtitle{
+        border: 5px white solid;
+        border-radius: 40%;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 3%;
+        margin-bottom: 5%;
+        text-decoration: underline;
+    }
+    .circlebar {
+        width: 150px;
+        height: 60px;
+        transform: scaleY(-1);
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .circlebar svg{
+        border-radius: 10%;
+    }
+    .bar {
+        width: 200px;
+        height: 50px;
+        margin: auto;
+    }
+    .bar svg{
+        border-radius: 25px;
+    }
+    .flagbar {
+        width: 130px;
+        height: 130px;
+        margin: auto;
+        margin-bottom: 10%;
+      }
+    #french svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/france.png");
+        background-position: center;
+        background-size: 150px;
+    }
+    #english svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/anglais.png");
+        background-position: center;
+        background-size: 150px;
+    }
+    #spanish svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/espagne.png");
+        background-position: center;
+        background-size: 150px;
+    }
+    #portuguese svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/portugal.png");
+        background-position: center;
+        background-size: 150px;
     }
 /*---------------------------------------------------------PROJECTS-----------------------------------------------------------------*/
     #project_carousel{
@@ -284,6 +288,66 @@
     .flag_icon{
         width: 13em;
         height: 10em;
+    }
+    .subtitle{
+        border: 5px white solid;
+        border-radius: 40%;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 3%;
+        margin-bottom: 5%;
+        text-decoration: underline;
+    }
+    .circlebar {
+        width: 200px;
+        height: 80px;
+        transform: scaleY(-1);
+        margin: auto;
+    }
+    .circlebar svg{
+        border-radius: 10%;
+    }
+    .bar {
+        width: 200px;
+        height: 50px;
+        margin: auto;
+    }
+    .bar svg{
+        border-radius: 25px;
+    }
+    .flagbar {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-bottom: 30%;
+      }
+    #french svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/france.png");
+        background-position: center;
+        background-size: 200px;
+    }
+    #english svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/anglais.png");
+        background-position: center;
+        background-size: 200px;
+    }
+    #spanish svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/espagne.png");
+        background-position: center;
+        background-size: 200px;
+    }
+    #portuguese svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/portugal.png");
+        background-position: center;
+        background-size: 200px;
     }
 /*---------------------------------------------------------PROJECTS-----------------------------------------------------------------*/
     #project_carousel{
@@ -414,6 +478,66 @@
     .flag_icon{
         width: 13em;
         height: 10em;
+    }
+    .subtitle{
+        border: 5px white solid;
+        border-radius: 40%;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 3%;
+        margin-bottom: 5%;
+        text-decoration: underline;
+    }
+    .circlebar {
+        width: 250px;
+        height: 100px;
+        transform: scaleY(-1);
+        margin: auto;
+    }
+    .circlebar svg{
+        border-radius: 10%;
+    }
+    .bar {
+        width: 250px;
+        height: 50px;
+        margin: auto;
+    }
+    .bar svg{
+        border-radius: 25px;
+    }
+    .flagbar {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 30%;
+      }
+    #french svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/france.png");
+        background-position: center;
+        background-size: 300px;
+    }
+    #english svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/anglais.png");
+        background-position: center;
+        background-size: 300px;
+    }
+    #spanish svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/espagne.png");
+        background-position: center;
+        background-size: 300px;
+    }
+    #portuguese svg{
+        border: 3px white solid;
+        border-radius: 100%;
+        background-image: url("../img/portugal.png");
+        background-position: center;
+        background-size: 300px;
     }
 /*---------------------------------------------------------PROJECTS-----------------------------------------------------------------*/
     #project_carousel{

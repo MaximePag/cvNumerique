@@ -1,3 +1,17 @@
+var tw = 0;
+var twh2 = 'Apprenti Développeur Web & Web Mobile';
+var speed = 80;
+function typeWriter() {
+    if (tw < twh2.length) {
+        document.getElementById("typewriter").innerHTML += twh2.charAt(tw);
+        tw++;
+        setTimeout(typeWriter, speed);
+    }
+}
+var blinking = document.getElementById('blinkchar');
+function blinkingChar() {
+    setInterval(function lel() { blinking.classList.toggle('blinking'); }, 500);
+}
 //HTML5 bar
 var htmlBar = new ProgressBar.SemiCircle(html5, {
     strokeWidth: 6,
@@ -152,26 +166,62 @@ var spanishBar = new ProgressBar.Circle(spanish, {
         circle.path.setAttribute('stroke', state.color);
     }
 });
+
+//     window.onscroll = function(){
+//     var paragraphList = document.getElementsByTagName('p');
+//     var index = parseInt(window.pageYOffset / 50);
+//         if(index < paragraphList.length){
+//             paragraphList[index].style.display = 'block';
+//         }
+// }
+
+
 window.onscroll = function () { animScroll() };
 
 function animScroll() {
-    if (document.body.scrollTop > 8200 || document.documentElement.scrollTop > 8200) {
+    console.log(window.pageYOffset)
+    if (window.pageYOffset >= 8100) {
         htmlBar.animate(0.6);
         cssBar.animate(0.55);
         jsBar.animate(0.25);
     }
-    if (document.body.scrollTop > 8400 || document.documentElement.scrollTop > 8400) {
+    if (window.pageYOffset >= 8500) {
         bsBar.animate(0.4);
     }
-    if (document.body.scrollTop > 8600 || document.documentElement.scrollTop > 8600) {
+    if (window.pageYOffset >= 9000) {
         ubuntuBar.animate(0.4);
         windowsBar.animate(0.85);
         macBar.animate(0.05);
     }
-    if (document.body.scrollTop > 9000 || document.documentElement.scrollTop > 9000) {
+    if (window.pageYOffset >= 9400) {
         frenchBar.animate(1.0);
         englishBar.animate(0.6);
         portugueseBar.animate(0.25);
         spanishBar.animate(0.2);
     }
 }
+
+
+// window.onscroll = function () { animScroll() };
+
+// function animScroll() {
+//     if (document.body.scrollTop > 8200 || document.documentElement.scrollTop > 8200) {
+//         htmlBar.animate(0.6);
+//         cssBar.animate(0.55);
+//         jsBar.animate(0.25);
+//     }
+//     if (document.body.scrollTop > 8400 || document.documentElement.scrollTop > 8400) {
+//         bsBar.animate(0.4);
+//     }
+//     if (document.body.scrollTop > 8600 || document.documentElement.scrollTop > 8600) {
+//         ubuntuBar.animate(0.4);
+//         windowsBar.animate(0.85);
+//         macBar.animate(0.05);
+//     }
+//     if (document.body.scrollTop > 9000 || document.documentElement.scrollTop > 9000) {
+//         frenchBar.animate(1.0);
+//         englishBar.animate(0.6);
+//         portugueseBar.animate(0.25);
+//         spanishBar.animate(0.2);
+//     }
+// }

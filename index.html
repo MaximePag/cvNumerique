@@ -11,7 +11,7 @@
     <title>CV - Maxime Pageot</title>
 </head>
 
-<body>
+<body onload="typeWriter(),blinkingChar()">
     <div class="container">
         <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
             <a class="navbar-brand nav_title" href="#"><strong>CV Maxime Pageot</strong></a>
@@ -45,7 +45,7 @@
                 <div class="col-md-12 text-center py-5">
                     <h1>Curriculum Vitæ</h1>
                     <h1>Maxime Pageot</h1>
-                    <h2>Apprenti Développeur Web & Web Mobile</h2>
+                    <h2>><span id="typewriter"></span><span id="blinkchar">|</span></h2>
                 </div>
             </div>
         </div>
@@ -281,15 +281,15 @@
             <div class="row">
                 <div class="col-md-4 text-center">
                     <img src="assets/img/html5.png" class="skill_icon" alt="icône html5" />
-                    <div id="html5" class="circlebar" class="mx-auto"></div>
+                    <div id="html5" class="circlebar"></div>
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="assets/img/css3.png" class="skill_icon" alt="icône css3" />
-                    <div id="css3" class="circlebar" class="mx-auto"></div>
+                    <div id="css3" class="circlebar"></div>
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="assets/img/js.png" class="skill_icon" alt="icône javascript" />
-                    <div id="js" class="circlebar" class="mx-auto"></div>
+                    <div id="js" class="circlebar"></div>
                 </div>
             </div>
             <div class="row">
@@ -298,7 +298,7 @@
             <div class="row">
                 <div class="col-md-4 text-center">
                     <img src="assets/img/bootstrap.png" class="skill_icon" alt="icône bootstrap" />
-                    <div id="bs" class="circlebar" class="mx-auto"></div>
+                    <div id="bs" class="circlebar"></div>
                 </div>
             </div>
             <div class="row">
@@ -307,18 +307,21 @@
             <div class="row">
                 <div class="col-md-4 text-center">
                     <p><i class="fab fa-windows fa-7x"></i></p>
-                    <p class="font-weight-bold">Windows - 10/8.1/7/XP/Vista</p>
-                    <div id="windows" class="bar" class="mx-auto"></div>
+                    <p class="font-weight-bold">Windows</p>
+                    <p class="font-weight-bold">10 / 8.1 / 7 / Vista / XP</p>
+                    <div id="windows" class="bar"></div>
                 </div>
                 <div class="col-md-4 text-center">
                     <p><i class="fab fa-ubuntu fa-7x"></i></p>
-                    <p class="font-weight-bold">GNU/Linux - Ubuntu 20.04LTS</p>
-                    <div id="ubuntu" class="bar" class="mx-auto"></div>
+                    <p class="font-weight-bold">GNU/Linux</p>
+                    <p class="font-weight-bold">Ubuntu 20.04LTS</p>
+                    <div id="ubuntu" class="bar"></div>
                 </div>
                 <div class="col-md-4 text-center">
                     <p><i class="fab fa-apple fa-7x"></i></p>
                     <p class="font-weight-bold">MAC OS</p>
-                    <div id="mac" class="bar" class="mx-auto"></div>
+                    <p class="font-weight-bold">X</p>
+                    <div id="mac" class="bar"></div>
                 </div>
             </div>
             <div class="row">
@@ -327,19 +330,19 @@
             <div class="row">
                 <div class="col-md-3 text-center">
                     <p class="font-weight-bold" title="Langue maternelle">Français - Natif</p>
-                    <div id="french" class="flagbar" class="mx-auto"></div>
+                    <div id="french" class="flagbar"></div>
                 </div>
                 <div class="col-md-3 text-center">
                     <p class="font-weight-bold" title="Selon le classement du CECRL">Anglais - B2</p>
-                    <div id="english" class="flagbar" class="mx-auto"></div>
+                    <div id="english" class="flagbar"></div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <p class="font-weight-bold" title="Selon le classement du CECRL">Portugais - A2</p>
-                    <div id="portuguese" class="flagbar" class="mx-auto"></div>
+                    <p class="font-weight-bold" title="Selon le classement du CECRL">Portugais - A1</p>
+                    <div id="portuguese" class="flagbar"></div>
                 </div>
                 <div class="col-md-3 text-center">
                     <p class="font-weight-bold" title="Selon le classement du CECRL">Espagnol - A1</p>
-                    <div id="spanish" class="flagbar" class="mx-auto"></div>
+                    <div id="spanish" class="flagbar"></div>
                 </div>
             </div>
             <!-- <div class="container text-center">
