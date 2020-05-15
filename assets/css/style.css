@@ -53,23 +53,23 @@
         color: white;
         margin-bottom: 8%;
         padding-bottom: 5%;
-        padding-top: 3%;
         border-top: 2px white solid;
         border-bottom: 2px white solid;
     }
     .title{
+        background:linear-gradient(to top,#202225,#00243D);
         border-bottom: 5px white solid;
         border-bottom-left-radius: 40%;
         border-bottom-right-radius: 40%;
         font-size: 2em;
         font-weight: bold;
         padding-bottom: 5%;
-        margin-top: 5%;
+        padding-top: 5%;
         margin-bottom: 5%;
         text-align: center;
     }
 /*---------------------------------------------------------EXPERIENCE---------------------------------------------------------------*/
-    .year{
+    .subtitle{
         border-top: 5px white solid;
         border-bottom: 5px white solid;
         font-size: 1.5em;
@@ -99,18 +99,11 @@
         width: 30vw;
         height: 35vw;
     }
-    .flag_icon{
-        width: 50vw;
-        height: 35vw;
-    }
-    .subtitle{
-        border: 5px white solid;
-        border-radius: 40%;
-        font-size: 1.5em;
-        font-weight: bold;
-        padding: 3%;
-        margin-bottom: 5%;
-        text-decoration: underline;
+    .skill{
+        background-color: #1D303D;
+        border-top: 4px white solid;
+        border-bottom: 4px white solid;
+        padding: 5%;
     }
     .circlebar {
         width: 150px;
@@ -137,28 +130,24 @@
         margin-bottom: 10%;
       }
     #french svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/france.png");
         background-position: center;
         background-size: 150px;
     }
     #english svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/anglais.png");
         background-position: center;
         background-size: 150px;
     }
     #spanish svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/espagne.png");
         background-position: center;
         background-size: 150px;
     }
     #portuguese svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/portugal.png");
         background-position: center;
@@ -239,23 +228,23 @@
         color: white;
         margin-bottom: 8%;
         padding-bottom: 5%;
-        padding-top: 3%;
         border-top: 2px white solid;
         border-bottom: 2px white solid;
     }
     .title{
+        background:linear-gradient(to top,#202225,#00243D);
         border-bottom: 5px white solid;
         border-bottom-left-radius: 40%;
         border-bottom-right-radius: 40%;
         font-size: 2em;
         font-weight: bold;
         padding-bottom: 5%;
-        margin-top: 5%;
+        padding-top: 5%;
         margin-bottom: 5%;
         text-align: center;
     }
 /*---------------------------------------------------------EXPERIENCE---------------------------------------------------------------*/
-    .year{
+    .subtitle{
         border-top: 5px white solid;
         border-bottom: 5px white solid;
         font-size: 1.5em;
@@ -285,18 +274,11 @@
         width: 10em;
         height: 10em;
     }
-    .flag_icon{
-        width: 13em;
-        height: 10em;
-    }
-    .subtitle{
-        border: 5px white solid;
-        border-radius: 40%;
-        font-size: 1.5em;
-        font-weight: bold;
-        padding: 3%;
-        margin-bottom: 5%;
-        text-decoration: underline;
+    .skill{
+        background-color: #1D303D;
+        border-top: 4px white solid;
+        border-bottom: 4px white solid;
+        padding: 5%;
     }
     .circlebar {
         width: 200px;
@@ -319,31 +301,26 @@
         width: 150px;
         height: 150px;
         margin: auto;
-        margin-bottom: 30%;
       }
     #french svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/france.png");
         background-position: center;
         background-size: 200px;
     }
     #english svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/anglais.png");
         background-position: center;
         background-size: 200px;
     }
     #spanish svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/espagne.png");
         background-position: center;
         background-size: 200px;
     }
     #portuguese svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/portugal.png");
         background-position: center;
@@ -422,30 +399,30 @@
 /*---------------------------------------------------------ARTICLE------------------------------------------------------------------*/
     .art{
         background-color: rgba(62,62,62,1);
-        width: 80%;
+        width: 90%;
         margin-right: auto;
         margin-left: auto;
         height: auto;
         color: white;
         margin-bottom: 8%;
         padding-bottom: 5%;
-        padding-top: 3%;
         border-top: 2px white solid;
         border-bottom: 2px white solid;
     }
     .title{
+        background:linear-gradient(to top,#202225,#00243D);
         border-bottom: 5px white solid;
         border-bottom-left-radius: 40%;
         border-bottom-right-radius: 40%;
-        font-size: 2em;
+        font-size: 3em;
         font-weight: bold;
         padding-bottom: 5%;
-        margin-top: 5%;
+        padding-top: 5%;
         margin-bottom: 5%;
         text-align: center;
     }
 /*---------------------------------------------------------EXPERIENCE---------------------------------------------------------------*/
-    .year{
+    .subtitle{
         border-top: 5px white solid;
         border-bottom: 5px white solid;
         font-size: 1.5em;
@@ -475,18 +452,10 @@
         width: 10em;
         height: 10em;
     }
-    .flag_icon{
-        width: 13em;
-        height: 10em;
-    }
-    .subtitle{
-        border: 5px white solid;
-        border-radius: 40%;
-        font-size: 1.5em;
-        font-weight: bold;
-        padding: 3%;
-        margin-bottom: 5%;
-        text-decoration: underline;
+    .skill{
+        background:linear-gradient(to top,#3E3E3E,#00243D);
+        border-top: 4px white solid;
+        padding: 5%;
     }
     .circlebar {
         width: 250px;
@@ -506,38 +475,33 @@
         border-radius: 25px;
     }
     .flagbar {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin: auto;
-        margin-bottom: 30%;
       }
     #french svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/france.png");
         background-position: center;
-        background-size: 300px;
+        background-size: 250px;
     }
     #english svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/anglais.png");
         background-position: center;
-        background-size: 300px;
+        background-size: 250px;
     }
     #spanish svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/espagne.png");
         background-position: center;
-        background-size: 300px;
+        background-size: 250px;
     }
     #portuguese svg{
-        border: 3px white solid;
         border-radius: 100%;
         background-image: url("../img/portugal.png");
         background-position: center;
-        background-size: 300px;
+        background-size: 250px;
     }
 /*---------------------------------------------------------PROJECTS-----------------------------------------------------------------*/
     #project_carousel{

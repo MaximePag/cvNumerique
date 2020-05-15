@@ -1,15 +1,3 @@
-
-$(document).ready(function () {
-    $(document).click(function (event) {
-        var clickover = $(event.target);
-        var _opened = $(".navbar-collapse").hasClass("show");
-        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
-            $(".navbar-toggler").click();
-        }
-    });
-});
-
-
 var tw = 0;
 var twh2 = 'Apprenti Développeur Web & Web Mobile';
 var speed = 80;
@@ -32,7 +20,11 @@ var htmlBar = new ProgressBar.SemiCircle(html5, {
     trailColor: '#eeeeee',
     trailWidth: 3,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //CSS3 bar
 var cssBar = new ProgressBar.SemiCircle(css3, {
@@ -40,9 +32,13 @@ var cssBar = new ProgressBar.SemiCircle(css3, {
     duration: 1800,
     easing: 'easeInOut',
     trailColor: '#eeeeee',
-    trailWidth: 3,
+    trailWidth: 6,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //JS bar
 var jsBar = new ProgressBar.SemiCircle(js, {
@@ -50,9 +46,13 @@ var jsBar = new ProgressBar.SemiCircle(js, {
     duration: 1800,
     easing: 'easeInOut',
     trailColor: '#eeeeee',
-    trailWidth: 3,
+    trailWidth: 6,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //Bootstrap bar
 var bsBar = new ProgressBar.SemiCircle(bs, {
@@ -60,9 +60,13 @@ var bsBar = new ProgressBar.SemiCircle(bs, {
     duration: 1800,
     easing: 'easeInOut',
     trailColor: '#eeeeee',
-    trailWidth: 3,
+    trailWidth: 6,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //Ubuntu bar
 var ubuntuBar = new ProgressBar.Line(ubuntu, {
@@ -72,7 +76,11 @@ var ubuntuBar = new ProgressBar.Line(ubuntu, {
     trailColor: '#eeeeee',
     trailWidth: 6,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //Windows bar
 var windowsBar = new ProgressBar.Line(windows, {
@@ -82,7 +90,11 @@ var windowsBar = new ProgressBar.Line(windows, {
     trailColor: '#eeeeee',
     trailWidth: 6,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //MAC bar
 var macBar = new ProgressBar.Line(mac, {
@@ -92,7 +104,11 @@ var macBar = new ProgressBar.Line(mac, {
     trailColor: '#eeeeee',
     trailWidth: 6,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //French bar
 var frenchBar = new ProgressBar.Circle(french, {
@@ -102,7 +118,11 @@ var frenchBar = new ProgressBar.Circle(french, {
     trailColor: '#eeeeee',
     trailWidth: 8,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#59B9D0', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //English bar
 var englishBar = new ProgressBar.Circle(english, {
@@ -112,7 +132,11 @@ var englishBar = new ProgressBar.Circle(english, {
     trailColor: '#eeeeee',
     trailWidth: 8,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#1F65A6', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //Portuguese bar
 var portugueseBar = new ProgressBar.Circle(portuguese, {
@@ -122,7 +146,11 @@ var portugueseBar = new ProgressBar.Circle(portuguese, {
     trailColor: '#eeeeee',
     trailWidth: 8,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#1F65A6', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 //Spanish bar
 var spanishBar = new ProgressBar.Circle(spanish, {
@@ -132,7 +160,11 @@ var spanishBar = new ProgressBar.Circle(spanish, {
     trailColor: '#eeeeee',
     trailWidth: 8,
     svgStyle: null,
-    color: '#26A69A',
+    from: { color: '#1F65A6', a: 0 },
+    to: { color: '#00243D', a: 1 },
+    step: function (state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+    }
 });
 
 //     window.onscroll = function(){
