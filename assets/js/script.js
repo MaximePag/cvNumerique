@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $(document).click(function (event) {
         var clickover = $(event.target);
@@ -8,8 +7,6 @@ $(document).ready(function () {
         }
     });
 });
-
-
 var tw = 0;
 var twh2 = 'Apprenti Développeur Web & Web Mobile';
 var speed = 80;
@@ -23,6 +20,31 @@ function typeWriter() {
 var blinking = document.getElementById('blinkchar');
 function blinkingChar() {
     setInterval(function lel() { blinking.classList.toggle('blinking'); }, 500);
+}
+
+function formNameValidation(){
+    var inputName = document.getElementById("name");
+    var regexName = /^[a-zA-ZÀ-ÿ\'\- ]+$/;
+    if (regexName.test(inputName.value) == true){
+        inputName.classList.remove("is-invalid");
+        inputName.classList.add("is-valid");        
+    }
+    else {
+        inputName.classList.remove("is-valid");
+        inputName.classList.add("is-invalid");
+    }
+}
+function formEmailValidation(){
+    var inputEmail = document.getElementById("email");
+    var regexEmail = /^([a-z0-9\-_.]{1,64})@([a-z0-9\-_.]{1,255})\.([a-z]{1,3})$/;
+    if (regexEmail.test(inputEmail.value) == true){
+        inputEmail.classList.remove("is-invalid");
+        inputEmail.classList.add("is-valid");        
+    }
+    else if (regexEmail.test(inputEmail.value) == false){
+        inputEmail.classList.remove("is-valid");
+        inputEmail.classList.add("is-invalid");
+    }
 }
 //HTML5 bar
 var htmlBar = new ProgressBar.SemiCircle(html5, {
