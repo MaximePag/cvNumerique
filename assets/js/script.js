@@ -19,7 +19,7 @@ function typeWriter() {
 }
 var blinking = document.getElementById('blinkchar');
 function blinkingChar() {
-    setInterval(function lel() { blinking.classList.toggle('blinking'); }, 500);
+    setInterval(function blink(){ blinking.classList.toggle('blinking'); }, 500);
 }
 
 function formNameValidation(){
